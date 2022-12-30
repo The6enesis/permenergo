@@ -3,22 +3,22 @@
   font-family: "PetersburgC";
   font-style: normal;
   font-weight: bold;
-  src: url("/fonts/petersburgC/PetersburgC-Bold.woff2") format("woff2"),
-    url("/fonts/petersburgC/PetersburgC-Bold.woff") format("woff");
+  src: url("../fonts/petersburgC/PetersburgC-Bold.woff2") format("woff2"),
+    url("../fonts/petersburgC/PetersburgC-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Century Gothic";
-  src: url("/fonts/CenturyGothic/CenturyGothic.woff2") format("woff2"),
-    url("/fonts/CenturyGothic/CenturyGothic.woff") format("woff");
+  src: url("../fonts/CenturyGothic/CenturyGothic.woff2") format("woff2"),
+    url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Century Gothic";
-  src: url("/fonts/CenturyGothic/CenturyGothic-Bold.woff2") format("woff2"),
-    url("/fonts/CenturyGothic/CenturyGothic-Bold.woff") format("woff");
+  src: url("../fonts/CenturyGothic/CenturyGothic-Bold.woff2") format("woff2"),
+    url("../fonts/CenturyGothic/CenturyGothic-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -141,7 +141,7 @@ button:hover {
 }
 
 .header {
-  background-image: url("/img/header/bcg-stars.png"), url("/img/header/bcg.jpg");
+  background-image: url("../img/header/bcg-stars.png"), url("../img/header/bcg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -218,7 +218,7 @@ button:hover {
 
 .main {
   z-index: -1;
-  background-image: url("/img/main/dfgdfgfdgdf.png");
+  background-image: url("../img/main/dfgdfgfdgdf.png");
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -245,7 +245,7 @@ button:hover {
   top: 0;
   transform: translate(-50%, -96px);
   content: "";
-  background-image: url("/img/main/group5.png");
+  background-image: url("../img/main/group5.png");
   background-repeat: no-repeat;
   width: 239px;
   height: 221px;
@@ -298,7 +298,7 @@ button:hover {
 /*task*/
 
 .task {
-  background-image: url("/img/task/bgc.jpg");
+  background-image: url("../img/task/bgc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -342,7 +342,7 @@ button:hover {
   top: 50px;
   right: -130px;
   content: "";
-  background-image: url("/img/task/illuminati.png");
+  background-image: url("../img/task/illuminati.png");
   background-repeat: no-repeat;
   width: 248px;
   height: 206px;
@@ -356,7 +356,7 @@ button:hover {
 
 .task__card-center::before {
   left: -145px;
-  background-image: url("/img/task/ufo.png");
+  background-image: url("../img/task/ufo.png");
 }
 
 .task__card-bottom {
@@ -366,7 +366,7 @@ button:hover {
 .task__card-bottom:before {
   top: 10px;
   right: -180px;
-  background-image: url("/img/task/git.png");
+  background-image: url("../img/task/git.png");
   width: 349px;
   height: 296px;
 }
@@ -414,7 +414,7 @@ button:hover {
 /*stage*/
 
 .stage {
-  background-image: url("/img/stage/group3.png");
+  background-image: url("../img/stage/group3.png");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -448,20 +448,20 @@ button:hover {
   right: 0;
   transform: translateY(17px);
   content: "";
-  background-image: url("/img/stage/img-1.png");
+  background-image: url("../img/stage/img-1.png");
   background-repeat: no-repeat;
   width: 308px;
   height: 247px;
 }
 
 .stage__card-2::before {
-  background-image: url("/img/stage/img-2.png");
+  background-image: url("../img/stage/img-2.png");
   width: 405px;
   height: 247px;
 }
 
 .stage__card-3::before {
-  background-image: url("/img/stage/img-3.png");
+  background-image: url("../img/stage/img-3.png");
   width: 350px;
   height: 248px;
 }
@@ -492,7 +492,7 @@ button:hover {
 /* awards */
 .awards {
   position: relative;
-  background-image: url("/img/awards/reward-bgc.png");
+  background-image: url("../img/awards/reward-bgc.png");
   background-repeat: no-repeat;
   background-position: center 0;
   background-size: cover;
@@ -507,7 +507,7 @@ button:hover {
   content: "";
   width: 372px;
   height: 344px;
-  background-image: url("/img/awards/arrow.png");
+  background-image: url("../img/awards/arrow.png");
   background-repeat: no-repeat;
 }
 
@@ -558,7 +558,7 @@ button:hover {
   width: 81.8%;
   padding: 90px 122px 85px;
   box-shadow: 0 7px 40px 3px rgba(41, 41, 110, 0.13);
-  background-image: url("/img/awards/card1.jpg");
+  background-image: url("../img/awards/card1.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -622,11 +622,11 @@ button:hover {
 }
 
 .awards__card-second {
-  background-image: url("/img/awards/card2.jpg");
+  background-image: url("../img/awards/card2.jpg");
 }
 
 .awards__card-three {
-  background-image: url("/img/awards/card3.jpg");
+  background-image: url("../img/awards/card3.jpg");
 }
 
 .awards__card-sub-desc {
@@ -669,7 +669,7 @@ button:hover {
 
 /* registration */
 .registration {
-  background-image: url("/img/registration/background.jpg");
+  background-image: url("../img/registration/background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -696,7 +696,7 @@ button:hover {
   align-self: stretch;
   padding: 100px 165px 54px 100px;
   background-color: white;
-  background-image: url("/img/registration/bg-form.png");
+  background-image: url("../img/registration/bg-form.png");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 7px 84px 0 rgba(0, 0, 0, 0.72);
@@ -852,13 +852,13 @@ button:hover {
   width: 44px;
   height: 26px;
   margin-right: 20px;
-  background: url("/img/footer/vk.png") no-repeat 50%;
+  background: url("../img/footer/vk.png") no-repeat 50%;
 }
 
 .footer__tg {
   width: 38px;
   height: 33px;
-  background: url("/img/footer/telegram.png") no-repeat 50%;
+  background: url("../img/footer/telegram.png") no-repeat 50%;
 }
 
 .footer__list-dock:not(:last-child) {
@@ -905,7 +905,7 @@ button:hover {
   content: "";
   width: 118px;
   height: 87px;
-  background: url("/img/footer/arrow-1.png");
+  background: url("../img/footer/arrow-1.png");
 }
 
 .footer__dev {
@@ -922,7 +922,7 @@ button:hover {
   content: "";
   width: 118px;
   height: 87px;
-  background: url("/img/footer/arrow-2.png");
+  background: url("../img/footer/arrow-2.png");
 }
 
 /* MEDIA */
